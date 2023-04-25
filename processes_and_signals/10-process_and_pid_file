@@ -8,7 +8,7 @@ trap "exit_f" 3
 
 exit_f()
 {
-    rm /var/run/holbertonscript.pid
+    rm /var/run/myscript.pid
     exit
 }
 

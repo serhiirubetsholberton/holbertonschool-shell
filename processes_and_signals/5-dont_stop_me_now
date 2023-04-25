@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Show your Bash PID made easy
+# Kills 4-to_infinity_and_beyond process
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
